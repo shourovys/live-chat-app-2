@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Chat App</title>
+    <link rel="stylesheet" href="./stye.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
+    <!-- connect socket.ip with client -->
+    <script defer src="socket.io/socket.io.js"></script>
+    <script defer src="./client.js"></script>
+</head>
+
+<body>
+    <section class="chat-section">
+        <div class="logo">
+            <img src="./logo.png" alt="Live Chat App">
+            <h3>Live Chat</h3>
+        </div>
+        <div class="massage-container">
+
+        </div>
+        <div class="massage-input">
+            <textarea id="textarea" cols="30" rows="1"
+                placeholder="prase enter key for send your massage..."></textarea>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
